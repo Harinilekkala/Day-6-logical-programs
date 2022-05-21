@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-Console.WriteLine("1.fibnacci series\n2.perfect number\n3.prime number\n");
+Console.WriteLine("1.fibnacci series\n2.perfect number\n3.prime number\n4. reverse of a number using while loop\n");
 Console.WriteLine("Enter Your Choice:");
 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -20,4 +20,8 @@ switch (choice)
         primenumber.prime();
         break;
 
+    case 4:
+        fibnocci.reverse rev = new fibnocci.reverse();
+        rev.reversenumber();
+        break;
 }
