@@ -8,7 +8,7 @@ namespace fibnocci
 {
     internal class fibseries
     {
-    {
+    
         public void series()
         {
             int val1 = 0, val2 = 1, val3, i, n;
@@ -30,4 +30,4 @@ namespace fibnocci
     }
 
 }
-}
+
