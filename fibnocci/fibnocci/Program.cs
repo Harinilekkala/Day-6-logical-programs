@@ -50,6 +50,15 @@ switch (choice)
         payment.moneyIntrest();
         break;
 
+    case 10:
+        fibnocci.Day_Of_Week day_Of_Week = new fibnocci.Day_Of_Week();
+        day_Of_Week.DayMonth();
+        break;
+
+
+    default:
+        Console.WriteLine("Enter valid Option.");
+        break;
 
 
 
