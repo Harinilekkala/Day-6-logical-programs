@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-Console.WriteLine("1.fibnacci series\n2.perfect number\n3.prime number\n4. reverse of a number using while loop\n5. Coupon Number\n6. Stopwatch \n7. Vending Machine\n8. Converting Temperature\n9. Monthly Payment");
+Console.WriteLine("1.fibnacci series\n2.perfect number\n3.prime number\n4. reverse of a number using while loop\n5. Coupon Number\n6. Stopwatch \n7. Vending Machine\n8. Converting Temperature\n9. Monthly Payment\n10. Day of Week\n11. Square Root");
 Console.WriteLine("Enter Your Choice:");
 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -55,6 +55,10 @@ switch (choice)
         day_Of_Week.DayMonth();
         break;
 
+    case 11:
+        fibnocci.SquareRoot sqrt = new fibnocci.SquareRoot();
+        sqrt.square();
+        break;
 
     default:
         Console.WriteLine("Enter valid Option.");
